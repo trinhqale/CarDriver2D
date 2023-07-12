@@ -1,0 +1,68 @@
+{
+    "name": "CarControl",
+    "maps": [
+        {
+            "name": "CarControl",
+            "id": "d01070d2-923f-4d27-b7cd-81ee3c965e5a",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "89c1fd25-1645-4e8a-91a5-50807101b6de",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b41df40e-3b08-4ba1-bcbe-18caa74a330d",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "KeyboardControlScheme",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52b78580-9bf4-46e8-9d29-78d96e45dd54",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "KeyboardControlScheme",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3881e481-9a70-412b-b6da-1b648b11815a",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardControlScheme",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardControlScheme",
+            "bindingGroup": "KeyboardControlScheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
